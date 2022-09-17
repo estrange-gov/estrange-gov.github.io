@@ -1,8 +1,1 @@
-const fs = require('fs')
-
-const dir = '/news'
-const files = fs.readdirSync(dir)
-
-for (const file of files) {
-  document.getElementById("news-section").innerHTML += file;
-}
+var articles = [{"title": "Testing!", "description": "Just making sure the news part works!", "file: "1"}]
