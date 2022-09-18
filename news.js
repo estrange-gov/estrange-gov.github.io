@@ -2,10 +2,8 @@ var articles = [{"title": "Testing!", "description": "Just making sure the news 
 var newsItems = document.getElementById("news-items")
 
 articles.forEach(article => {
-    const newsGet = async () => {
-        const response = await fetch('https://estrange-gov.github.io/news/'+articles[file]);
-        const responseText = await response.text
-        newsItems.innerHTML += responseText
-    }
+    newsItems.innerHTML += `
+    <h1>${article["title"]}</h1>
+    <p>${article["description"]}`
 });
 
