@@ -5,7 +5,7 @@ articles.forEach(article => {
     const newsGet = async () => {
         const response = await fetch('https://estrange-gov.github.io/news/'+articles[file]);
         const responseText = await response.text
+        newsItems.innerHTML += responseText
     }
-    newsItems.innerHTML += responseText
 });
 
