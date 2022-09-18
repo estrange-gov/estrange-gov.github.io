@@ -1,3 +1,3 @@
 var number = document.getElementById('number')
 
-var number = 5
+number.innerHTML = 5
