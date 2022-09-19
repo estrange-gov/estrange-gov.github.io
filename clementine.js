@@ -1,3 +1,3 @@
 var number = document.getElementById('number')
 
-number.innerHTML = 5
+number.innerHTML = Math.random() * (1999 - 100) + 100
