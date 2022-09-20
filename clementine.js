@@ -4,7 +4,7 @@ function delay(time) {
   
   
   
-  document.getElementById("number").innerHTML = Math.floor(Math.random() * (1999 - 100) + 10)
+  document.getElementById("number").innerHTML = Math.floor(Math.random() * (1999 - 200) + 200)
   
   async function start() {
     while (true) {
